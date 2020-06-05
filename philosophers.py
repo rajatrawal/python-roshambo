@@ -6,8 +6,9 @@
 # Reflect
 
 # First Pass Solution
+# Produces an infinite loop
 
-def feed_philosophers():
+def feed_philosophers(num):
   eating = [True, False, True, False, False]
   i=0
   while i < len(eating):
