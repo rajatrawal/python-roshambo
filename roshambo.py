@@ -1,5 +1,9 @@
 import random
 
+# Besides the result message that gets display after every user choice, also display the computer’s choice and the current score.
+# If the user quits, before exiting the program, display the current score.
+# Besides prompting the user for their input for their choice, also display the previous round’s user choice and computer choice.
+
 def show_welcome_message():
     welcome_message = "Welcome to Rock, Paper, Scissors!"
     print(welcome_message)
@@ -30,6 +34,7 @@ def quit_game(wins, ties, losses):
     text_file = open("history.txt", "w")
     text_file.write(str(wins) + "," + str(ties) + "," + str(losses))
     text_file.close()
+    
 
 
 def compare_choices_and_get_result(user, computer):
