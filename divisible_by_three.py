@@ -24,3 +24,10 @@ def divisible_by_three(list):
       print(i)
 
 print(divisible_by_three(values))
+
+def divisible_by_two(list):
+  for i in list:
+    if i % 2 == 0:
+      print(i)
+
+print(divisible_by_two(values))
