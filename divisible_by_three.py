@@ -18,6 +18,7 @@ values =[85, 46, 27, 81, 94, 9, 27, 38, 43, 99, 37, 63, 31, 42, 14]
 def divisible_by_three(list):
   # loop over the given array
   # divide each number by 3
+  # print out each number individually
   for i in list:
     if i % 3 == 0:
       print(i)
