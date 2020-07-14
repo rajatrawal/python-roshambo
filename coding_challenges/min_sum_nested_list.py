@@ -6,10 +6,10 @@
 # Verbalize your thought process as much as possible before writing any code. 
 # Run through the UPER problem solving framework while going through your thought process.
 
-# store main array in a variable to iterate in a for loop
+# store main array in a variable to iterate over
 # for each element in the main array
-# use the min python meth to find the smallest number
-# add those smallest number to append them to another list 
+# use the min python method to find the smallest number
+# append the smallest numbers to another list
 # which would stored in a new variable
 # then sum up all of those integers
 
